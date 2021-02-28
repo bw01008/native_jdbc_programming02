@@ -60,3 +60,9 @@ insert into department values (5, "비상계회부", 19);
 
 delete from title where tno = 6;
 delete from department where deptno = 5;
+
+select stdno, stdname, kor, eng, math from student;
+select stdno, stdname, kor, eng, math from student where stdno = 1;
+insert into student values (4, "우정아", 90, 70, 85);
+delete from student where stdno = 4;
+update student set stdname = "천사" where stdNo = 4;

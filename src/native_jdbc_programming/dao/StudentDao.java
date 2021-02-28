@@ -11,6 +11,6 @@ public interface StudentDao {
 	Student selectStudentByNo(Student student);
 	int insertStudent(Student student);
 	int updateStudent(Student student);
-	int deleteStudent(Student stdNo);
+	int deleteStudent(Student student);
 	
 }
